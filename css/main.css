@@ -1,0 +1,862 @@
+/* CSS RESET
+----------------------------
+----------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 1em;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/* GENERAL PAGE STYLES
+----------------------------
+----------------------------*/
+
+html {
+	width: 58.75em;
+	margin: 0 auto;
+	font-family: Helvetica, Verdana, Geneva, sans-serif;
+	/*background-color: #FF6A8F;*/
+	background-image: url(../images/dots.jpg);
+}
+
+body {
+	background-color: #fff;
+	box-shadow: 0px 0px 4px #888;	
+}
+
+/* HEADER STYLES
+----------------------------
+----------------------------*/
+
+#logo {
+	float: left;
+	margin-left: .313em;
+}
+
+nav ul {
+	font-family: 'Doppio One', sans-serif;
+	background-color: #ffe9ee;
+	height: 3.125em;
+	line-height: 3.125em;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline;
+	padding: .95em;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #cd5572;
+}
+
+aside {
+	clear: both;
+}
+
+		/* HOVER STATE
+		----------------------------
+		----------------------------*/
+		
+a:hover {
+	color: #7b7777;
+}
+
+		/* CART
+		----------------------------
+		----------------------------*/
+
+#cart {
+	font-weight: normal;
+	position: relative;
+	left: 2.5em;
+	background-color: #ff6a8f;
+	box-shadow: 0px 0px 2px #888888;
+}
+
+#cart a {
+	color: #000000;
+	font-family: "Helvetica", Verdana, sans-serif;
+	letter-spacing: .05em;
+}
+
+		/* ACTIVE STATE
+		----------------------------
+		----------------------------*/
+
+#active {
+	background-color: #ff6a8f;
+	color: #fff;
+	box-shadow: 0px 0px 2px #888888;
+}
+
+		/* SLOGAN
+		----------------------------
+		----------------------------*/
+
+#slogan {
+	font-size: 1.30em;
+	font-weight: bold;
+	padding: 1.875em 0 0 0em;
+	position: relative;
+	left: 3.6875em;
+}
+
+/* SIDEBAR
+----------------------------
+----------------------------*/
+
+aside {
+	float: left;
+	width: 220px;
+	padding: 0 0 0 0.625em;
+}
+
+		/* QUOTE
+		----------------------------
+		----------------------------*/
+
+blockquote {
+	font-family: "Myriad Pro", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 0.875em;
+	font-style: italic;
+	text-align: justify;
+	letter-spacing: .05em;
+	line-height: 1.5;
+	margin-top: 0.9375em;
+}
+
+#lucie_arnaz {
+	text-align: right;
+	font-family: "Myriad Pro", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing: .1em;
+	margin: 0.625em 0 0 1.875em;
+}
+
+/* SEARCH BAR
+----------------------------
+----------------------------*/
+
+#search {
+	margin: 1.875em 0;
+}
+
+input[type=search] {
+	width: 150px;
+	height: 25px;
+	border-radius: 0.4375em;
+	-moz-border-radius: 0.4375em;
+	-webkit-border-radius: 0.4375em;
+	-ms-border-radius: 0.4375em;
+}
+
+#search_button {
+	width: 50px;
+	height: 30px;
+	border-radius: 0.4375em;
+	-moz-border-radius: 0.4375em;
+	-webkit-border-radius: 0.4375em;
+	-ms-border-radius: 0.4375em;
+	border: none;
+	font-size: 0.875em;
+	font-weight: bold;
+	color: #fff;
+	background-color: #cd5572;
+}
+
+		/* POPULAR CATEGORIES 
+		----------------------------
+		----------------------------*/
+
+aside h2 {
+	font-size: 1.125em;
+	font-weight: bold;
+	margin-bottom: 0.625em;
+}
+
+aside li {
+	list-style-type: none;
+	padding-bottom: 0.625em;
+	margin-left: 1.875em;
+}
+
+aside li a {
+	color: #cd5572;
+	text-decoration: none;
+}
+
+/* CONTENT 
+----------------------------
+----------------------------*/
+
+#content {
+	float: left;
+	width: 670px;
+	background: #ffe9ee;
+	position: relative;
+	left: 1.875em;	
+	top: -1.6875em;
+	padding-bottom: 1.5625em;
+}
+
+#content a:hover {
+	color: #7b7777;
+}
+
+#content a {
+	color: #cd5572;
+	text-decoration: none;
+}
+
+#title, legend, .title {
+	font: 1.25em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	line-height: 40px;
+	letter-spacing: .1em;
+	text-indent: 10px;
+	color: #fff;
+	background-color: #ff6a8f;
+	height: 40px;
+}
+
+	/* HOME PAGE & SHOP PAGE
+	----------------------------
+	----------------------------*/
+	
+		/* FEATURED ITEM 
+		----------------------------
+		----------------------------*/
+
+#featured_item {
+	padding-top: 1.5625em;
+}
+
+#featured_item a {
+	font: bold 1.125em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#featured_item img {
+	float: left;
+	margin-right: 10px;
+	width: 151px;
+}
+
+#featured_item-information h4 {
+	padding-bottom: 30px;
+}
+
+#featured_item-information .price {
+	margin-bottom: 20px;
+	position: relative;
+	top: -30px;
+	right: 10px;
+}
+
+#featured_item-information p {
+	font-size: .9em;
+	line-height: 1.5;
+}
+
+.show_title {
+	font-style: italic;
+}
+
+
+		/* SMALLED ITEMS 
+		----------------------------
+		----------------------------*/
+
+#content article {
+	margin: 0 0.625em;
+	text-align: justify;
+}
+
+#smaller_items-index {
+	clear: both;
+	width: 670px;
+}
+
+#index img, #shop img {
+	padding-bottom: 0.625em;
+	float: left;
+}
+
+.item {
+	float: left;
+	padding-top: 1.5625em;
+	width: 200px;
+}
+
+.item a {
+	text-decoration: none;
+	color: #cd5572;
+	font: bold 14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	float: left;
+	width: 120px;
+}
+
+.item p {
+	font-size: 0.75em;
+	width: 200px;
+	padding-top: 0.625em;
+}
+
+input.add-to-cart {
+	background-color: #cd5572;
+	border-radius: 0.4375em;
+	-moz-border-radius: 0.4375em;
+	-webkit-border-radius: 0.4375em;
+	-ms-border-radius: 0.4375em;
+	border: none;
+	float: right;
+	padding: 0;
+	margin: 0;
+	width: 100px;
+	height: 30px;
+	font-size: 1em;
+	font-weight: bold;
+	color: #fff;
+}
+
+input.add-to-cart:hover {
+	background: #fff;
+	color: #cd5572;
+}
+
+.details {
+	position: relative;
+	top: 25px;
+}
+		/* ITEM TITLES 
+		----------------------------
+		----------------------------*/
+h5 {
+	width: 130px;
+	text-align: left;
+	display: inline-block;
+}
+
+		/* PRICE 
+		----------------------------
+		----------------------------*/
+		
+.price {
+	font: bold 14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	float: right;
+}
+
+p.price {
+	width: 35px;
+	position: relative;
+	top: -0.5em;
+}
+
+	/* ABOUT US & HISTORY
+	----------------------------
+	----------------------------*/
+	
+#about-us_content, #history_content {
+	font-size: 0.875em;
+	padding-bottom: 1.5625em;
+}
+
+#cathy_image {
+	float: left;
+	margin-right: 0.9375em;
+}
+
+#about-us_content {
+	clear: both;
+	overflow: hidden;
+}
+
+#about-us_content p, #history_content p {
+	margin-top: 0.9375em;
+	line-height: 1.8em;
+}
+
+#show_opening_title {
+	float: left;
+	margin-right: 0.9375em;
+}
+
+#cast_photo {
+	float: right;
+	margin-left: 0.9375em;
+	padding-bottom: 1.5625em;
+}
+
+	/* CART & CHECKOUT
+	----------------------------
+	----------------------------*/
+	
+		/* STEPS
+		----------------------------
+		----------------------------*/	
+	
+#cart-page #content h2, #checkout #content h2 {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	float: left;
+}
+
+.steps {
+	font-size: 0.75em;
+	display: inline;
+	padding-right: 0.625em;
+	float: left;
+	display: inline;
+	text-indent: 50px;
+	margin-top: 30px;
+}
+
+#secure-icon {
+	clear: both;
+	margin-top: 2.75em;
+}
+
+#secure-text {
+	position: inline;
+	font-size: 0.75em;
+	width: 115px;
+}
+
+#checkout-steps {
+	background-color: #fff;
+	padding-bottom: 0.9375em;
+}
+
+		/* CART LIST
+		----------------------------
+		----------------------------*/
+		
+table {
+	width: 100%;
+}
+
+.title {
+	text-align: left;
+}
+
+td {
+	text-align: center;
+	padding: 1.25em 0;
+	line-height: 1.5;
+}
+
+.item-number {
+	position: relative;
+	left: 2.0625em;
+}
+
+		/* TOTALS
+		----------------------------
+		----------------------------*/
+		
+#totals_names, #totals_numbers {
+	float: right;
+	margin-right: 1.25em;
+	margin-top: 1.25em;
+}
+
+#totals_names p, #totals_numbers p {
+	padding-bottom: 0.5em;
+}
+
+#totals_names span {
+	font-weight: bold;
+}
+
+		/* BUTTON
+		----------------------------
+		----------------------------*/
+
+#clickable_links {
+	clear: both;
+	padding-bottom: 1.5625em;
+}
+
+#continue_shopping {
+	float: left;
+	margin: 2.1875em 0 0 0.625em;
+}
+
+#continue_to_checkout_button {
+	background-color: #cd5572;
+	border-radius: 0.4375em;
+	-moz-border-radius: 0.4375em;
+	-webkit-border-radius: 0.4375em;
+	-ms-border-radius: 0.4375em;
+	border: none;
+	padding: 0;
+	margin: 1.875em 0.625em 0 0 ;
+	width: 175px;
+	height: 30px;
+	color: #fff;
+	float: right;
+}
+
+#continue_to_checkout_button:hover {
+	background: #FFE9EE;
+	color: #cd5572;
+}
+
+		/* PAYMENT, BILLING and SHIPPING
+		----------------------------
+		----------------------------*/
+
+#checkout #content {
+	background-color: #fff;
+}
+
+#payment-information {
+	width: 100%;
+	background: #ffe9ee;
+}
+
+#payment-information img {
+	padding-top: 10px;
+}
+
+#payment-information p {
+	padding: 0.3125em 0.625em 0.625em;
+}
+
+#shipping_information-radio {
+	padding: 0 0 0 0.625em;
+}
+
+#payment-information, #billing-information, #shipping-information {
+	margin-bottom: 1.0625em;
+}
+
+#payment-information legend {
+	width: 100%;
+}
+
+#billing-information, #shipping-information {
+	width: 312px;
+	background: #ffe9ee;
+	float: left;
+}
+
+#billing-information {
+	margin-right: 2.6875em;
+}
+
+#billing-information legend, #shipping-information legend {
+	width: 312px;
+}
+
+#billing-information p, #shipping-information p {
+	padding: 0.3125em 0.625em 0.625em 0.625em;
+	text-align: right;
+}
+
+		/* ORDER REVIEW
+		----------------------------
+		----------------------------*/
+
+#order-review {
+	clear: both;
+	background: #ffe9ee;
+}
+
+		/* GO BACK AND CHECKOUT BUTTON
+		----------------------------
+		----------------------------*/
+#go_back {
+	float: left;
+	margin: 2.1875em 0 0 0.625em;
+}
+
+#checkout_button {
+	background-color: #cd5572;
+	border-radius: 0.4375em;
+	-moz-border-radius: 0.4375em;
+	-webkit-border-radius: 0.4375em;
+	-ms-border-radius: 0.4375em;
+	border: none;
+	padding: 0;
+	margin: 1.875em 0.625em 0 0 ;
+	width: 100px;
+	height: 30px;
+	font-size: 0.875em;
+	font-weight: bold;
+	color: #fff;
+	float: right;
+}
+
+#checkout_button:hover {
+	background: #FFE9EE;
+	color: #cd5572;
+}
+
+/* FOOTER 
+----------------------------
+----------------------------*/
+
+footer {
+	clear: both;
+	background-color: #ffe9ee;
+}
+
+footer ul {
+	font-family: 'Doppio One', sans-serif;
+	font-size: 0.75em;
+	background-color: #ffe9ee;
+	height: 50px;
+	line-height: 4em;
+	padding-left: 0.625em;
+}
+
+footer li {
+	display: inline;
+	padding-right: 0.5em;
+}
+
+footer li a {
+	text-decoration: none;
+	color: #cd5572;
+}
+
+#copyright {
+	float: right;
+	position: relative;
+	top: -4.125em;
+}
+
+
+
+/* RESPONSIVE  
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------*/
+
+	/* IPHONE----------------------
+	-------------------------------*/
+
+@media screen and (max-width: 480px) {
+	html {
+		width: 320px;
+	}
+	
+	body {
+		max-width: 320px;
+		margin: 0;
+		padding: 0;
+		font-size: 12px;
+	}
+			/* LOGO AND NAV -----------
+			-------------------------------*/
+			
+	#logo {
+		margin: auto;
+		float: left;
+	}
+	
+	nav ul {
+		background: #fff;
+		font-size: 12px;
+	}
+	
+	nav li {
+		text-align: left;
+		display: block;
+		padding: 0;
+		line-height: 1.70em;
+	}
+	
+	#cart {
+		position: inherit;
+		background: #ffe9ee;
+		box-shadow: none;
+	}
+	
+			/* ASIDE AND SLOGAN -----------
+			-------------------------------*/
+			
+	aside {
+		display: none;
+	}
+	
+	#slogan {
+		display: none;
+	}
+			
+			/* MAIN CONTENT -----------
+			-------------------------------*/
+			
+	#content {
+		clear: both;
+		float: none;
+		width: 280px;
+		background: none;
+	}
+	
+	#content article {
+		text-align: left;
+		float: none;
+	}
+	
+	#title, legend, .title {
+		background: none;
+		color: #000;
+		font-weight	: bold;
+		font-size: 1em;
+	}
+	
+	.item {
+		float: none;
+		padding-bottom: 60px;
+		width: 200px;
+		padding-left: 35px;
+	}
+	
+	#show_opening_title, #cast_photo {
+		float: none;
+	}
+
+	/* CART & CHECKOUT  -----------
+		-------------------------------*/
+	
+	#checkout-steps {
+		width: 100%;
+		margin-top: 20px;
+	}
+	
+	#cart-page #content, #checkout #content {
+		padding-top: 10px;
+	}
+	
+	#cart-page #content h2, #checkout #content h2 {
+		font-size: 1em;
+		margin-bottom: 15px;
+	}
+	
+	.steps {
+		display: none;
+	}
+	
+	#secure-text, #secure-icon {
+		display: none;
+	}
+	
+	#cart-table {
+		width: 100%;
+		position: relative;
+		right: 15px;
+	}
+	
+	table	 {
+		font-weight: normal;
+		font-size: .8em;
+	}
+	
+	#cart-page .title {
+		font-weight: normal;
+		line-height: 1em;
+		text-align: center;
+	}
+
+	
+	table img {
+		display: none;
+	}
+	
+	.item-number {
+		position: inherit;
+	}
+	
+	#totals_names, #totals_numbers {
+		padding-bottom: 20px;
+		text-align: right;
+		margin: 0;
+	}
+	
+	#continue_to_checkout_button, #continue_shopping, #go_back, #checkout_button {
+		float: none;
+		margin: 0 auto;
+		display: block;
+	}
+	
+	#order-review {
+		margin-bottom: 20px;
+	}
+	
+	#continue_shopping, #go_back {
+		display: none;
+	}
+	
+	#checkout #content p {
+		text-align: left;
+		width: 280px;
+	}
+	
+	#payment_information, #shipping-information, #billing-information {
+		width: 100%;
+	}
+	
+	/* FOOTER -----------
+		-------------------------------*/
+		
+	#footer_nav {
+		display: none;
+	}
+	
+	#copyright {
+		text-align: center;
+		width: 314px;
+		background: #fff;
+	}
+}
+
+
+	/* IPAD -----------
+		-------------------------------*/
+
+@media screen and (max-width: 700px) {
+	html {
+		max-width: 700px;
+	}
+	
+	body {
+		max-width: 650px;
+		padding: 0;
+		margin: 0;
+	}
+	
+	blockquote, #lucie_arnaz {
+		display: none;
+	}
+}

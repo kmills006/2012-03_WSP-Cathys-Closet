@@ -1,0 +1,377 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+	<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=480, initial-scale=1.0">
+	<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+	
+		<title>Cathy's Closet - America's 1st I Love Lucy Store | Checkout</title>
+	<link href="css/main.css" rel="stylesheet" type="text/css" />
+	
+	<link href='http://fonts.googleapis.com/css?family=Doppio+One' rel='stylesheet' type='text/css'>
+	
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+	<![endif]-->
+	
+	</head>	
+	
+	<body id="checkout">
+		<div id="wrapper"> <!-- START OF WRAPPER -->
+		
+			<!-- HEADER -->
+			<header>
+				<p id="logo"><a href="index.html"><img src="images/logo.png" alt="Cathy's Closet Logo" title="Cathy's Closet Logo" width="182" height="150"/></a></p>
+				
+				<!-- NAVIGATION -->
+				<nav>
+					<ul>
+						<li><a href="shop.html" title="Shop">Shop</a></li>
+						<li><a href="about_us.html" title="About Us">About Us</a></li>
+						<li><a href="history.html" title="History">History</a></li>
+						<li><a href="happy_peppy_club.html" title="Happy Peppy Club">Happy Peppy Club</a></li>
+						<li><a href="monthly_contest.html" title="Monthly Contest">Monthly Contest</a></li>
+						<li id="cart"><a href="cart.html">Cart $0.00</a></li>
+					</ul>
+				</nav>
+				
+				<p id="slogan">America's Favorite I Love Lucy Superstore &amp; Much More!</p>
+				
+			</header>
+			
+			
+			
+			<!-- SIDEBAR -->
+			<aside> 
+				<!-- QUOTE -->
+				<blockquote><p>"Cathy was the first, a pioneer in the I LOVE LUCY collectable world. She set the standard for all others to meet and her closet has almost as many authentic Lucy items in it as my Mother's!"</p></blockquote>
+				<p id="lucie_arnaz">-Lucie Arnaz</p>
+				
+				<!--SEARCH BAR -->
+				<div id="search">
+				<form action="#">
+					<input type="search" name="search" placeholder="Search Lucystore.com" tabindex="1"/>
+					<input id="search_button" type="submit" value="Go"/>
+				</form>
+				</div> <!-- END OF SEARCH -->
+				
+				<!-- RECENTLY VIEWED -->
+				<h2>Recently Viewed</h2>
+					<ul id="recently_viewed">
+						<li><a href="#">Lucy Cookie Jar</a></li>
+						<li><a href="#">Chocolate Tasters Mouse Pad</a></li>
+						<li><a href="#">Lucille Ball Magnet</a></li>
+						<li><a href="#">Trinket Boxes</a></li>
+					</ul>
+			</aside>
+			
+			<!-- CONTENT -->
+			<section id="content">
+				<!-- START OF SHOPPING CART STEPS -->
+				<div id="checkout-steps">
+				<h2>Your Shopping Cart</h2>
+					<!-- STEPS -->
+					<p class="steps">Review Your Cart</p>
+					<p class="steps">Your Information</p>	
+					<p class="steps">Order Complete</p>
+					
+					<!--<div id="steps_1_2_3">
+							<p id="active_step">1.</p>
+							<p class="steps">Review Your Cart</p>
+					
+							<p class="step_number">2.</p>
+							<p class="steps">Your Information</p>
+							
+							<p class="step_number">3.</p>
+							<p class="steps">Order Complete</p>
+							</div>-->
+					
+					<!-- SECURE PURCHASE -->
+					<p id="secure-icon"><img src="images/shopping-cart/secure-icon.png" alt="Secure Icon" title="Secure Icon"/></p>
+					<p id="secure-text">YOUR ORDER IS SAFE AND SECURE</p>
+				</div> <!-- END OF CHECKOUT STEPS -->
+					
+					<!-- PAYMENT FORM -->
+					<div id="payment-information">
+					<form action="#">
+					<fieldset>
+					<legend>Payment Information</legend>
+						<p><img src="images/shopping-cart/credit_card_logos_14.gif" alt="Credit Cards Cathy's Closet Accepts" title="Credit Cards Cathy's Closet Accepts" width="113" height="23" /></p>
+						
+						<p><label for="card_number">Card Number:</label>
+						<input type="text" name="card_number" id="card_number" placeholder="xxxx-xxxx-xxxx-xxxx">
+						*</p>
+						
+						<p><label for="expiration_date">Expiration Date:</label>
+						<input type="text" name="expiration_date" id="expiration_date" placeholder="mm/yyyy">
+						* (mm/yyyy)</p>
+						
+						<p><label for="card_code">Card Code:</label>
+						<input type="text" name="card_code" id="card_code">
+						* <a href="#" title="Your Card Verification Code is a 3-digit number printed on the back of your Visa/Mastercard. It appears after and to the right of your card number. The American Express verification number is a 4-digit number printed on the front of your card. It appears after and to the right of your card number.">What is this?</a></p>
+						</fieldset>
+						</form>
+					</div> <!-- END OF PAYMENT DIV -->
+						
+					<!-- BILLING INFORMATION -->
+					<div id="billing-information">
+					<form action="#">
+					<fieldset>
+					<legend>Billing Information</legend>
+						<p>Please enter your billing information as it would appear on your credit card statement</p>
+						<p><label for="first_name">First Name:</label>
+						<input type="text" name="first_name" id="first_name"/></p>
+						
+						<p><label for="last_name">Last Name:</label>
+						<input type="text" name="last_name" id="last_name"/></p>
+						
+						<p><label for="address">Address:</label>
+						<input type="text" name="address" id="address"></p>
+						
+						<p><label for="address-2">Address 2:</label>
+						<input type="text" name="address-2" id="address-2"/></p>
+						
+						<p><label for="city">City:</label>
+						<input type="text" name="city" id="city"/></p>
+					
+						<p><label for="state">State:</label>
+						<select name="state" id="state">
+							<option value=" " selected>(please select a state)</option
+							><option value="Alabama">Alabama</option>
+							<option value="Alaska">Alaska</option>
+							<option value="Arizona">Arizona</option>
+							<option value="Arkansas">Arkansas</option>
+							<option value="California">California</option>
+							<option value="Colorado">Colorado</option>
+							<option value="Connecticut">Connecticut</option>
+							<option value="Delaware">Delaware</option>
+							<option value="Florida">Florida</option>
+							<option value="Georgia">Georgia</option>
+							<option value="Hawaii">Hawaii</option>
+							<option value="Idaho">Idaho</option>
+							<option value="Illinois">Illinois</option>
+							<option value="Indiana">Indiana</option>
+							<option value="Iowa">Iowa</option>
+							<option value="Kansas">Kansas</option>
+							<option value="Kentucky">Kentucy</option>
+							<option value="Louisiana">Louisiana</option>
+							<option value="Maine">Maine</option>
+							<option value="Maryland">Maryland</option>
+							<option value="Massachusetts">Massachusetts</option>
+							<option value="Michigan">Michigan</option>
+							<option value="Minnesota">Minnesota</option>
+							<option value="Mississippi">Mississippi</option>
+							<option value="Missouri">Missouri</option>
+							<option value="Montana">Montana</option>
+							<option value="Nebraska">Nebraska</option>
+							<option value="Nevada">Nevada</option>
+							<option value="New Hampshire">New Hampshire</option>
+							<option value="New Jersey">New Jersey</option>
+							<option value="New Mexico">New Mexico</option>
+							<option value="New York">New York</option>
+							<option value="North Carolina">North Carolina</option>
+							<option value="North Dakota">North Dakota</option>
+							<option value="Ohio">Ohio</option>
+							<option value="Oklahoma">Oklahoma</option>
+							<option value="Oregon">Oregon</option>
+							<option value="Pennsylvania">Pennsylvania</option>
+							<option value="Rhode Island">Rhode Island</option>
+							<option value="South Carolina">South Carolina</option>
+							<option value="South Dakota">South Dakota</option>
+							<option value="Tennessee">Tennessee</option>
+							<option value="Texas">Texas</option>
+							<option value="Utah">Utah</option>
+							<option value="Vermont">Vermont</option>
+							<option value="Virginia">Virginia</option>
+							<option value="Washington">Washington</option>
+							<option value="West Virginia">West Virginia</option>
+							<option value="Wisconsin">Wisconsin</option>
+							<option value="Wyoming">Wyoming</option>
+						</select></p>
+						
+						<p><label for="zip-code">Zip Code:</label>
+						<input type="text" name="zip-code" id="zip-code" maxlength="5"/></p>
+						
+						<p><label for="email">E-mail:</label>
+						<input type="email" name="email" placeholder="user@domain.com" id="email"/></p>
+						
+						<p><label for="phone-area">Phone Number:</label>
+						<input type="text" name="phone-area" id="phone-area" placeholder="(123)" size="3" maxlength="3"/>
+						<input type="text" name="phone-number1" id="phone-number1" placeholder="456" size="2" maxlength="3"/> -
+						<input type="text" name="phone-number2" id="phone-number2" placeholder="7890" size="3" maxlength="4"/>
+						</p>
+						
+						</fieldset>		
+						</form>
+					</div> <!-- END OF BILLING DIV -->
+						
+					<!-- SHIPPING INFORMATION -->
+					<div id="shipping-information">
+					<form action="#">
+					<fieldset>
+					<legend>Shipping Information</legend>
+						<p>Please enter the address where your package(s) will be shipped</p>
+						<div id="shipping_information-radio">
+							<p><input type="radio" name="address" value="billing-address" id="billing_address" checked="checked"/><label for="billing_address"> Ship to my billing address</label><br />
+							   <input type="radio" name="address" value="shipping-address" id="shipping_address"/><label for="shipping_address"> Ship to a different address</label></p>
+						</div> <!-- END OF SHIPPING INFORMATION RADIO -->
+						<p><label for="first_name2">First Name:</label>
+						<input type="text" name="first_name2" id="first_name2"/></p>
+						
+						<p><label for="last_name2">Last Name:</label>
+						<input type="text" name="last_name2" id="last_name2"/></p>
+						
+						<p><label for="address2">Address:</label>
+						<input type="text" name="address2" id="address2"/></p>
+						
+						<p><label for="address-2_2">Address 2:</label>
+						<input type="text" name="address-2_2" id="address-2_2"/></p>
+						
+						<p><label for="city2">City:</label>
+						<input type="text" name="city2" id="city2"/></p>
+						
+						<p><label for="state2">State:</label>
+						<select name="state2" id="state2">
+							<option value=" " selected>(please select a state)</option>
+							<option value="Alabama">Alabama</option>
+							<option value="Alaska">Alaska</option>
+							<option value="Arizona">Arizona</option>
+							<option value="Arkansas">Arkansas</option>
+							<option value="California">California</option>
+							<option value="Colorado">Colorado</option>
+							<option value="Connecticut">Connecticut</option>
+							<option value="Delaware">Delaware</option>
+							<option value="Florida">Florida</option>
+							<option value="Georgia">Georgia</option>
+							<option value="Hawaii">Hawaii</option>
+							<option value="Idaho">Idaho</option>
+							<option value="Illinois">Illinois</option>
+							<option value="Indiana">Indiana</option>
+							<option value="Iowa">Iowa</option>
+							<option value="Kansas">Kansas</option>
+							<option value="Kentucky">Kentucy</option>
+							<option value="Louisiana">Louisiana</option>
+							<option value="Maine">Maine</option>
+							<option value="Maryland">Maryland</option>
+							<option value="Massachusetts">Massachusetts</option>
+							<option value="Michigan">Michigan</option>
+							<option value="Minnesota">Minnesota</option>
+							<option value="Mississippi">Mississippi</option>
+							<option value="Missouri">Missouri</option>
+							<option value="Montana">Montana</option>
+							<option value="Nebraska">Nebraska</option>
+							<option value="Nevada">Nevada</option>
+							<option value="New Hampshire">New Hampshire</option>
+							<option value="New Jersey">New Jersey</option>
+							<option value="New Mexico">New Mexico</option>
+							<option value="New York">New York</option>
+							<option value="North Carolina">North Carolina</option>
+							<option value="North Dakota">North Dakota</option>
+							<option value="Ohio">Ohio</option>
+							<option value="Oklahoma">Oklahoma</option>
+							<option value="Oregon">Oregon</option>
+							<option value="Pennsylvania">Pennsylvania</option>
+							<option value="Rhode Island">Rhode Island</option>
+							<option value="South Carolina">South Carolina</option>
+							<option value="South Dakota">South Dakota</option>
+							<option value="Tennessee">Tennessee</option>
+							<option value="Texas">Texas</option>
+							<option value="Utah">Utah</option>
+							<option value="Vermont">Vermont</option>
+							<option value="Virginia">Virginia</option>
+							<option value="Washington">Washington</option>
+							<option value="West Virginia">West Virginia</option>
+							<option value="Wisconsin">Wisconsin</option>
+							<option value="Wyoming">Wyoming</option>
+						</select></p>
+						
+						<p><label for="zip-code2">Zip Code:</label>
+						<input type="text" name="zip-code2" id="zip-code2" maxlength="5"/></p>
+						
+						<p><label for="phone-area2">Phone Number:</label>
+						<input type="text" name="phone-area2" id="phone-area2" placeholder="(123)" size="3" maxlength="3"/>
+						<input type="text" name="phone-number1_2" id="phone-number1_2" placeholder="456" size="2" maxlength="3"/> - 
+						<input type="text" name="phone-number2_2" id="phone-number2_2" placeholder="7890" size="3" maxlength="4"/>
+						</p>
+						
+						</fieldset>			
+						</form>
+						
+						</div> <!-- END OF SHIPPING DIV -->
+						
+					<!-- ORDER REVIEW -->
+					<div id="order-review">
+						<table>
+						<tr>
+							<th class="title">Item Description</th>
+							<th class="title">Price</th>
+							<th class="title">Qty</th>
+							<th class="title">Shipping Time</th>
+						</tr>
+						
+						<!-- ITEM 1 -->
+						<tr>
+							<td><img src="images/cart/stove-cart.jpg" alt="Stove Cookie Jar" title="Stove Cookie Jar" width="119" height="86"/> Stove Cookie Jar <br /> <span class="item-number">7535559</span></td>
+							<td>$59.95</td>
+							<td>1</td>
+							<td>1-5 Business Days</td>
+						</tr>
+						
+						<!-- ITEM 2 -->
+						<tr>
+							<td><img src="images/cart/throw-cart.jpg" alt="Enciente Throw" title="Enciente Throw" width="119" height="86"/> Enciente Throw<br /> <span class="item-number">6547699</span></td>
+							<td>$34.95</td>
+							<td>1</td>
+							<td>1-5 Business Days</td>
+						</tr>
+					</table>
+					
+					</div> <!-- END OF ORDER REVIEW -->
+					
+					<!-- GO BACK -->
+					<div id="clickable_links">
+					<p id="go_back"><a href="cart.html">Go Back</a></p>
+						
+					
+					<!-- CONTINUE TO CHECK OUT -->
+					<form action="checkout.html">
+					<input id="checkout_button" type="submit" value="Checkout"/>
+					</form>
+					</div>
+					
+				 	
+			</section>
+			
+			
+			
+			<!-- FOOTER -->
+			<footer>
+				
+				<!-- LEFT FOOTER -->
+				<ul id="footer_nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="shop.html">Shop</a></li>
+					<li><a href="about_us.html">About Us</a></li>
+					<li><a href="history.html" title="History">History</a></li>
+					<li><a href="happy_peppy_club.html" title="Happy Peppy Club">Happy Peppy Club</a></li>
+					<li><a href="monthly_contest.html" title="Monthly Contest">Monthly Contest</a></li>
+				</ul>
+				
+				<!-- RIGHT FOOTER -->
+				<ul id="copyright">
+					<li>Copyright &copy; 1992-2012</li>
+					<li>Cathy's Closet</li>
+					<li>P. (888) BUY-LUCY</li>
+				</ul>
+			</footer>
+			
+		
+		</div> <!-- END OF WRAPPER -->
+			
+		
+	</body>
+</html>
